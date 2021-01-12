@@ -1,0 +1,18 @@
+{
+  "name": "link-shortener",
+  "version": "1.0.0",
+  "description": "Simple app for link shortening.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-jaroslaw-janikowski:jaroslaw-janikowski/link-shortener.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.3"
+  }
+}
