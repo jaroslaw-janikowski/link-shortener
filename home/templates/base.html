@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Link Shortener</title>
+    <link rel="icon" type="image/png" href="{% static 'favicon.ico' %}" sizes="16x16">
     <link rel="stylesheet" href="{% static 'bootstrap/dist/css/bootstrap.min.css' %}">
+    <script src="{% static 'jquery/dist/jquery.min.js' %}"></script>
     <script defer src="{% static 'bootstrap/dist/js/bootstrap.min.js' %}"></script>
 </head>
 <body>
 <div class="container-fluid">
 {% block content %}{% endblock %}
+<footer>Url icon by Eynav Raphael from the Noun Project</footer>
 </div>
 </body>
 </html>
