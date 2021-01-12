@@ -1,3 +1,6 @@
 from django.db import models
 
-# Create your models here.
+class Link(models.Model):
+    short_url = models.CharField(max_length=512, unique=True)
+    long_url = models.TextField(unique=True)
+    date_add = models.DateField(auto_now_add=True)
